@@ -1,0 +1,21 @@
+.main {
+  // .main__header
+
+  &__header {
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  // .main__name-company
+
+  &__name-company {
+    font-family: "Rubik Pixels", cursive;
+    font-size: 2.5rem;
+  }
+
+  // .main__text
+
+  &__text {
+    font-size: 1.5rem;
+  }
+}

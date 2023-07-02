@@ -1,0 +1,39 @@
+.card {
+  width: 90vw;
+  max-width: 300px;
+  padding: 20px;
+  background-color: transparent;
+  border: 2px solid cornflowerblue;
+  border-radius: 10px;
+  display: flex;
+  filter: drop-shadow(2px 2px 6px cornflowerblue);
+
+  // .card__text-box
+
+  &__text-box {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+  }
+
+  // .card__avatar
+
+  &__avatar {
+    width: 100px;
+    height: 100px;
+  }
+
+  // .card__user-name
+
+  &__user-name {
+    font-size: 2rem;
+    margin: 0;
+  }
+
+  // .card__info
+
+  &__info {
+    font-size: 1rem;
+    margin: 5px 0 0;
+  }
+}
